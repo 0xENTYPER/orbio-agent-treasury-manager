@@ -73,6 +73,8 @@ The policy combines financial constraints with expected workload:
 - per-task CREDIT ceiling;
 - allocation across models, tools, and infrastructure.
 
+![Treasury budget policy and safety model](assets/budget-policy.png)
+
 ### Model routes
 
 Live public pricing is converted into comparable routes. Cheap models can cover routine tasks while stronger routes remain available only when the policy can afford them.
@@ -80,6 +82,8 @@ Live public pricing is converted into comparable routes. Cheap models can cover 
 ### Explicit paid action
 
 Execution is a separate state from planning. The operator selects a route, reviews a maximum CREDIT amount, and confirms one bounded task.
+
+![Explicit paid action and decision ledger](assets/paid-action.png)
 
 ### Decision ledger
 
@@ -182,6 +186,13 @@ The interface is intentionally built around decisions rather than provider inter
 This repository contains a real product screenshot and a description of the product model, architecture, safety boundaries, and current capabilities.
 
 The application source, credentials, private test data, production configuration, and internal account details remain private.
+
+<details>
+<summary>View the complete Treasury Manager workspace</summary>
+
+![Complete Orbio Agent Treasury Manager workspace](assets/treasury-full.png)
+
+</details>
 
 ---
 
